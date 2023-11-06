@@ -1,6 +1,6 @@
 # MINI-MIDEN
 
-MINI-MIDEN is a local naive implementation of the miden architecture, designed to demonstrate the basic principles of networked ZK-proof generation and verification enabling scalability and privacy.
+MINI-MIDEN is a local implementation of the miden architecture, designed to demonstrate the basic principles of networked ZK-proof generation and verification enabling scalability and privacy.
 
 ![Architecture](./mini-miden-arch.png)
 
@@ -17,7 +17,7 @@ MINI-MIDEN is a local naive implementation of the miden architecture, designed t
 Clone the repository and build the project:
 ```shell
 # Get access to the code
-git clone https://github.com/yourusername/mini-miden.git
+git clone https://github.com/phklive/mini-miden.git
 cd mini-miden
 cargo build
 
