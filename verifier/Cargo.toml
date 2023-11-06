@@ -1,0 +1,16 @@
+[package]
+name = "verifier"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+serde = {version = "1.0", features = ["derive"]}
+serde_json = "1.0.108"
+miden = "0.3.0"
+miden-core = "0.3.0"
+winter-math = "0.4.2"
+winter-crypto = "0.4.2"
+user = {path = "../user"}
